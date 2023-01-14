@@ -1,2 +1,3 @@
-# modernize-wcf-app-using-corewcf
-How to modernize a legacy WCF app using CoreWCF and .NET7
+# How to modernize a legacy .NET Framework WCF app using CoreWCF and .NET7
+
+//Work in progress
