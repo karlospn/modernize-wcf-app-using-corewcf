@@ -28,10 +28,12 @@ var app = builder.Build();
 app.UseServiceModel(serviceBuilder =>
 {
     serviceBuilder.AddService<BookingCreatorService>();
-    serviceBuilder.AddServiceEndpoint<BookingCreatorService, IBookingCreatorService>(new BasicHttpBinding(BasicHttpSecurityMode.Transport), "/BookingCreatorService.svc");
+    serviceBuilder.AddServiceEndpoint<BookingCreatorService, IBookingCreatorService>(new BasicHttpBinding(BasicHttpSecurityMode.None), "/BookingCreatorService.svc");
     var serviceMetadataBehavior = app.Services.GetRequiredService<ServiceMetadataBehavior>();
-    serviceMetadataBehavior.HttpsGetEnabled = true;
+    serviceMetadataBehavior.HttpsGetEnabled = false;
     serviceMetadataBehavior.HttpGetEnabled = true;
+    serviceBuilder.BaseAddresses.Clear();
+    serviceBuilder.BaseAddresses.Add(new Uri("http://localhost:5001"));
 });
 
 app.Run();
