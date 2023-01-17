@@ -20,17 +20,17 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28CDEC0D-A290-4111-9166-3E3BA2750975}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		Dockerfile = Dockerfile
 		nuget.config = nuget.config
-		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.Contracts", "BookingMgmt.Contracts\BookingMgmt.Contracts.csproj", "{0F8C8F7E-94CD-4FB0-898A-8ED97B98B846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingMgmt.Contracts", "BookingMgmt.Contracts\BookingMgmt.Contracts.csproj", "{0F8C8F7E-94CD-4FB0-898A-8ED97B98B846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.Application", "BookingMgmt.Application\BookingMgmt.Application.csproj", "{62D3F9F6-8FE6-4B1A-9584-F88CDCEE8119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingMgmt.Application", "BookingMgmt.Application\BookingMgmt.Application.csproj", "{62D3F9F6-8FE6-4B1A-9584-F88CDCEE8119}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.Domain", "BookingMgmt.Domain\BookingMgmt.Domain.csproj", "{8D48807F-7D49-4444-95D7-6453AF9C13DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingMgmt.Domain", "BookingMgmt.Domain\BookingMgmt.Domain.csproj", "{8D48807F-7D49-4444-95D7-6453AF9C13DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.Infrastructure", "BookingMgmt.Infrastructure\BookingMgmt.Infrastructure.csproj", "{EE9E3587-8161-42D0-A1FB-CB06BBFEBCE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingMgmt.Infrastructure", "BookingMgmt.Infrastructure\BookingMgmt.Infrastructure.csproj", "{EE9E3587-8161-42D0-A1FB-CB06BBFEBCE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.WCF.WebService.IntegrationTest", "BookingMgmt.WCF.WebService.IntegrationTest\BookingMgmt.WCF.WebService.IntegrationTest.csproj", "{4B7F4EE0-D061-416B-A18D-D24755F78C86}"
 EndProject
@@ -38,7 +38,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.Application.Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.Domain.UnitTest", "BookingMgmt.Domain.UnitTest\BookingMgmt.Domain.UnitTest.csproj", "{2710706D-EEBC-4F8A-B5DA-6F577D90E38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingMgmt.SharedKernel", "BookingMgmt.SharedKernel\BookingMgmt.SharedKernel.csproj", "{74770A10-E9D8-435D-BE05-4D6D35B745B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingMgmt.SharedKernel", "BookingMgmt.SharedKernel\BookingMgmt.SharedKernel.csproj", "{74770A10-E9D8-435D-BE05-4D6D35B745B4}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookingMgmt.Database", "BookingMgmt.Database\BookingMgmt.Database.sqlproj", "{6324877B-DF65-4E11-A002-B1E317CD2544}"
 EndProject
