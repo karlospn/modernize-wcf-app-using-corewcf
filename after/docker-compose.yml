@@ -1,0 +1,28 @@
+version: '3.8'
+
+networks:
+  wcf:
+    name: flights-network
+    
+services:
+  mssql:
+    build: 
+      context: ./scripts/sql
+    ports:
+      - "1433:1433"  
+    environment:
+      SA_PASSWORD: "P@ssw0rd?"
+      ACCEPT_EULA: "Y"
+    networks:
+      - wcf
+
+  app:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    depends_on:
+      - mssql
+    ports:
+      - 5001:80
+    networks:
+      - wcf
