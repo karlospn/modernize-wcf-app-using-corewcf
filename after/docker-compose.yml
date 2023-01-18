@@ -24,5 +24,7 @@ services:
       - mssql
     ports:
       - 5001:80
+    environment:
+      DatabaseConnectionString: Server=mssql;Database=Flights;User Id=SA;Password=P@ssw0rd?
     networks:
       - wcf
