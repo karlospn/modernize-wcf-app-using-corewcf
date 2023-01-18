@@ -1,7 +1,7 @@
-﻿using System.Configuration;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using BookingMgmt.Domain.Entities;
 using BookingMgmt.SharedKernel.DbContext;
+using Microsoft.Extensions.Configuration;
 
 namespace BookingMgmt.Infrastructure.BoundedContexts
 {
@@ -12,8 +12,8 @@ namespace BookingMgmt.Infrastructure.BoundedContexts
             Database.SetInitializer<BookingCreatorContext>(null);
         }
 
-        public BookingCreatorContext()
-            : base(ConfigurationManager.AppSettings["DatabaseConnectionString"])
+        public BookingCreatorContext(IConfiguration configuration)
+            : base(configuration["DatabaseConnectionString"])
         {
             Configuration.LazyLoadingEnabled = false;
         }

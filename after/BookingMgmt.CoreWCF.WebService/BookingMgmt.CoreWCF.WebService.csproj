@@ -24,7 +24,6 @@
   <ItemGroup>
     <PackageReference Include="CoreWCF.Primitives" Version="1.*" />
     <PackageReference Include="CoreWCF.Http" Version="1.*" />
-    <PackageReference Include="CoreWCF.ConfigurationManager" Version="1.*" />
     <PackageReference Include="EntityFramework" Version="6.4.4" />
   </ItemGroup>
   <ItemGroup>
