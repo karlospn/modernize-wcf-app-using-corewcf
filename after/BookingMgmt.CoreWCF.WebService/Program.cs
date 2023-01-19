@@ -33,7 +33,6 @@ app.UseServiceModel(serviceBuilder =>
     serviceMetadataBehavior.HttpsGetEnabled = false;
     serviceMetadataBehavior.HttpGetEnabled = true;
 #if (!DEBUG)
-
     serviceBuilder.BaseAddresses.Clear();
     serviceBuilder.BaseAddresses.Add(new Uri("http://localhost:5001"));
 #endif
