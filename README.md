@@ -1,4 +1,4 @@
-# How to modernize a legacy .NET Framework WCF app using CoreWCF and .NET7
+# How to modernize a legacy .NET Framework WCF app using CoreWCF and .NET 7
 
 This repository contains an example of how you can modernize a .NET Full Framework WCF app using CoreWCF and .NET 7 
 
