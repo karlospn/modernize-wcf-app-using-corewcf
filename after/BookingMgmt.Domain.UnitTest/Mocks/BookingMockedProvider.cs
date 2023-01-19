@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using BookingMgmt.Domain.Entities;
+﻿using BookingMgmt.Domain.Entities;
 
 namespace BookingMgmt.Domain.UnitTest.Mocks
 {

@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using BookingMgmt.Contracts;
+﻿using BookingMgmt.Contracts;
 using BookingMgmt.Contracts.DTO;
-using BookingMgmt.WCF.WebService.IntegrationTest.Helpers;
+using BookingMgmt.CoreWCF.WebService.IntegrationTest.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BookingMgmt.WCF.WebService.IntegrationTest.Given_A_Booking
+namespace BookingMgmt.CoreWCF.WebService.IntegrationTest.Given_A_Booking
 {
     [TestClass]
     public class WhenIsCancelled
