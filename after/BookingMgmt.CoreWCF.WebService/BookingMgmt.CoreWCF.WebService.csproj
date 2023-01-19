@@ -5,15 +5,6 @@
     <ImplicitUsings>true</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Content Remove="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Using Include="CoreWCF" />
     <Using Include="CoreWCF.Configuration" />
     <Using Include="CoreWCF.Channels" />
