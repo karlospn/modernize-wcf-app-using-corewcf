@@ -6,7 +6,7 @@ This repository contains an example of how you can modernize a .NET Full Framewo
 
 The ``/before`` folder contains a .NET 4.7.2 WCF app.   
 
-The ``/after`` folder contains the result of migrating the WCF app to CoreWCF and .NET 7.
+The ``/after`` folder contains the end result after migrating the WCF app to CoreWCF and .NET 7.
 
 # Application
 
