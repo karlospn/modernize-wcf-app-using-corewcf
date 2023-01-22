@@ -29,10 +29,10 @@ The app per se allow us to manage flight bookings. It allows us to do the follow
 To run the .NET 4.7.2 WCF app, which can be found on the ``/before`` folder, you need:
 - Have installed .NET 4.7.2 on your machine.
 - Create and publish the database somewhere.
-- Update the ``DatabaseConnectionString`` key from the ``AppSettings`` section on the ``Web.config`` file. It needs to point to the database you've deployed previosly.
+- Update the ``DatabaseConnectionString`` key from the ``AppSettings`` section on the ``Web.config`` file. It needs to point to the database deployed in the previous step.
 
 
-To run the .NET 7 CoreWCF app, which can be found on the ``/before`` folder, you need: 
+To run the .NET 7 CoreWCF app, which can be found on the ``/after`` folder, you need: 
 - There is a ``docker-compose`` file that starts up the application and also the external dependencies. Just run ``docker compose up`` and you're good to go.
 
 # More info
