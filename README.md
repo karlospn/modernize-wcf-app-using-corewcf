@@ -38,5 +38,5 @@ To run the .NET 7 CoreWCF app, which can be found on the ``/after`` folder, you 
 # More info
 
 If you want to know about the process of modernizing this WCF app, you can read my blog post:
-- Add blog post uri: Sooner
+- https://www.mytechramblings.com/posts/modernize-wcf-legacy-app-using-corewcf/
 
